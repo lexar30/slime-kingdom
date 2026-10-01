@@ -1,0 +1,12 @@
+# Normalize text files to LF; detect binary files automatically
+* text=auto eol=lf
+
+# Improve C# diffs
+*.cs diff=csharp
+
+# Unity generates trailing spaces in serialized files
+*.meta          whitespace=-blank-at-eol
+*.unity         whitespace=-blank-at-eol
+*.prefab        whitespace=-blank-at-eol
+*.asset         whitespace=-blank-at-eol
+*.scenetemplate whitespace=-blank-at-eol
